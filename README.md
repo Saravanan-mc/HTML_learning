@@ -1,5 +1,5 @@
-📘 **HTML Learning**
-General Description
+📘 # **HTML Learning**
+
 
 This repository is designed to help beginners and learners understand the fundamentals of HTML (HyperText Markup Language).
 It provides examples, explanations, and small projects to practice and build a strong foundation in web development.
