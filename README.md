@@ -7,7 +7,7 @@ It provides examples, explanations, and small projects to practice and build a s
 
 📌 Basics of HTML and its structure
 
-📌 Common tags and their usage (<p>, <a>, <img>, etc.)
+📌 Common tags and their usage
 
 📌 Creating forms, lists, and tables
 
