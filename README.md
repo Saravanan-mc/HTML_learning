@@ -1,4 +1,4 @@
-📘 #HTML Learning
+📘 **HTML Learning**
 General Description
 
 This repository is designed to help beginners and learners understand the fundamentals of HTML (HyperText Markup Language).
