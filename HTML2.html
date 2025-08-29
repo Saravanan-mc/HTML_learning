@@ -1,0 +1,150 @@
+<!DOCTYPE html> <!-- Declares this is an HTML5 document -->
+<html lang="en"> <!-- Root element of HTML, 'lang' specifies language -->
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes site responsive -->
+    <title>All HTML Tags Example</title> <!-- Title shown in browser tab -->
+</head>
+<body> <!-- Main visible content of the web page -->
+
+<h1>HTML Tags Demonstration</h1> <!-- Main heading (largest) -->
+<p>This file demonstrates over 100 HTML tags with basic usage.</p> <!-- Paragraph text -->
+
+<!-- Basic text formatting -->
+<p>This is a paragraph.</p> <!-- Paragraph -->
+<b>Bold</b>, <!-- Bold text (visual, not semantic) -->
+<strong>Strong</strong>, <!-- Important text (semantic meaning) -->
+<i>Italic</i>, <!-- Italic text (visual only) -->
+<em>Emphasized</em>, <!-- Emphasized text (semantic) -->
+<mark>Marked</mark>, <!-- Highlighted text -->
+<small>Small</small>, <!-- Smaller-sized text -->
+<del>Deleted</del>, <!-- Strikethrough text for removed content -->
+<ins>Inserted</ins>, <!-- Underlined text for added content -->
+<sub>Subscript</sub>, <!-- Small text below baseline -->
+<sup>Superscript</sup>, <!-- Small text above baseline -->
+<u>Underline</u>. <!-- Underlined text (visual only) -->
+
+<!-- Links -->
+<a href="https://example.com">Link</a> <!-- Creates a clickable hyperlink -->
+
+<!-- Lists -->
+<ul> <!-- Unordered list (bulleted) -->
+    <li>Unordered list item</li> <!-- List item -->
+</ul>
+<ol> <!-- Ordered list (numbered) -->
+    <li>Ordered list item</li>
+</ol>
+<dl> <!-- Description list -->
+    <dt>Term</dt> <!-- Term in description list -->
+    <dd>Definition</dd> <!-- Description of term -->
+</dl>
+
+<!-- Images -->
+<img src="https://via.placeholder.com/100" alt="Placeholder Image"> <!-- Displays an image -->
+
+<!-- Multimedia -->
+<audio controls> <!-- Audio player -->
+    <source src="sample.mp3" type="audio/mpeg"> <!-- Audio source file -->
+</audio>
+<video controls> <!-- Video player -->
+    <source src="sample.mp4" type="video/mp4"> <!-- Video source file -->
+</video>
+
+<!-- Tables -->
+<table border="1"> <!-- Creates a table -->
+    <caption>Sample Table</caption> <!-- Table title -->
+    <thead> <!-- Table header section -->
+        <tr><th>Head 1</th><th>Head 2</th></tr> <!-- Table row with headers -->
+    </thead>
+    <tbody> <!-- Table body -->
+        <tr><td>Data 1</td><td>Data 2</td></tr> <!-- Table row with data -->
+    </tbody>
+    <tfoot> <!-- Table footer -->
+        <tr><td colspan="2">Footer</td></tr> <!-- Footer row -->
+    </tfoot>
+</table>
+
+<!-- Forms -->
+<form> <!-- Creates a form -->
+    <fieldset> <!-- Groups related form controls -->
+        <legend>Form Example</legend> <!-- Caption for fieldset -->
+        <label for="name">Name:</label> <!-- Label for input -->
+        <input type="text" id="name" name="name"><br> <!-- Text input -->
+        <input type="checkbox" id="check1"> <!-- Checkbox input -->
+        <label for="check1">Checkbox</label><br>
+        <input type="radio" name="choice" value="1"> Radio 1 <!-- Radio button -->
+        <input type="radio" name="choice" value="2"> Radio 2<br>
+        <input type="date"> <!-- Date picker -->
+        <input type="color"> <!-- Color picker -->
+        <input type="file"> <!-- File upload -->
+        <input type="number"> <!-- Number input -->
+        <input type="range"> <!-- Slider -->
+        <input type="time"> <!-- Time picker -->
+        <select> <!-- Dropdown -->
+            <option>Option 1</option> <!-- Dropdown option -->
+        </select>
+        <textarea>Text area</textarea> <!-- Multi-line text box -->
+        <button>Button</button> <!-- Clickable button -->
+        <input type="submit"> <!-- Submit button -->
+        <input type="reset"> <!-- Reset button -->
+    </fieldset>
+</form>
+
+<!-- Interactive -->
+<details> <!-- Expandable section -->
+    <summary>Click to expand</summary> <!-- Clickable heading for details -->
+    Hidden content here.
+</details>
+<dialog open>Dialog box</dialog> <!-- Pop-up dialog -->
+
+<!-- Semantic -->
+<header>Header section</header> <!-- Intro/header content -->
+<nav>Navigation section</nav> <!-- Navigation links -->
+<main>Main content</main> <!-- Primary page content -->
+<section>Section content</section> <!-- Standalone section -->
+<article>Article content</article> <!-- Independent content block -->
+<aside>Aside content</aside> <!-- Side content -->
+<footer>Footer section</footer> <!-- Footer content -->
+
+<!-- Programming related -->
+<code>inline code</code> <!-- Code snippet -->
+<pre>Preformatted text</pre> <!-- Preserves whitespace formatting -->
+<kbd>Keyboard input</kbd> <!-- User keyboard input -->
+<samp>Sample output</samp> <!-- Program output -->
+<var>Variable</var> <!-- Variable name -->
+
+<!-- SVG & Canvas -->
+<svg width="50" height="50"> <!-- Scalable Vector Graphics -->
+    <circle cx="25" cy="25" r="20" stroke="black" fill="red"/> <!-- Circle shape -->
+</svg>
+<canvas id="myCanvas" width="50" height="50"></canvas> <!-- Drawing area -->
+
+<!-- Special -->
+<abbr title="World Health Organization">WHO</abbr> <!-- Abbreviation -->
+<cite>Citation</cite> <!-- Reference to a work -->
+<q>Short quotation</q> <!-- Inline quote -->
+<blockquote>Block quotation</blockquote> <!-- Long quote -->
+<address>123 Street, City</address> <!-- Contact info -->
+<time datetime="2025-08-11">August 11, 2025</time> <!-- Date/time -->
+<progress value="50" max="100"></progress> <!-- Progress bar -->
+<meter value="0.7">70%</meter> <!-- Measurement gauge -->
+<output>Result</output> <!-- Output from a calculation -->
+<datalist id="list"> <!-- Predefined options for input -->
+    <option value="Option A">
+    <option value="Option B">
+</datalist>
+
+<!-- Extra/Deprecated -->
+<acronym title="As Soon As Possible">ASAP</acronym> <!-- Deprecated acronym tag -->
+<big>Big text</big> <!-- Deprecated bigger text -->
+<center>Centered text</center> <!-- Deprecated centering -->
+<font color="blue">Blue text</font> <!-- Deprecated font styling -->
+
+<!-- Web components -->
+<template> <!-- Hidden HTML for later use -->
+    <p>This is inside a template.</p>
+</template>
+<slot>Slot content</slot> <!-- Placeholder in web component -->
+
+</body>
+</html>
