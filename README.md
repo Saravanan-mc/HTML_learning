@@ -8,7 +8,7 @@ What You’ll Learn
 
 Basics of HTML and its structure
 
-Common tags and their usage (<p>, <a>, <img>, <table>, etc.)
+Common tags and their usage
 
 Creating forms, lists, and tables
 
