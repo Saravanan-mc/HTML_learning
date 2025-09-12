@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 1</title>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML example">
+    <meta name="keywords" content="HTML, tags">
+    <meta name="author" content="Example Author">
+    <!--Favicon-->
+    <link rel="icon" href="sample.png" type="image/png">
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>This is HTML5 learning</h1>
+    <!-- Text formatting -->
+    <p>This is a paragraph Tag.</p>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <b>Bold</b>
+    <strong>Strong</strong>
+    <i>Italic</i>
+    <em>Emphasized</em>
+    <mark>Marked</mark>
+    <small>Small</small>
+    <del>Deleted</del>
+    <ins>Inserted</ins>
+    <sub>Subscript</sub>
+    <sup>Superscript</sup>
+    <u>Underline</u>
+    <span>span</span>
+    <abbr title="HyperText Markup Language">HTML</abbr>
+    <q>Quotation</q>
+    <code>Code</code>
+    <samp>Sample output</samp>
+    <kbd>Keyboard input</kbd>
+    <var>Variable name</var>
+    <cite>Citation text</cite>
+    <address>123 Street, City</address>
+    <time datetime="2025-08-11">August 11, 2025</time>
+
+    <dfn>Definition</dfn>
+    <pre>
+        Preformatted text
+        this is next line
+    </pre>
+    <blockquote>Block quotation</blockquote>
+    <br>
+    <hr>
+    <br>
+
+    <!-- Semantic -->
+    <header>Header section</header>
+    <nav>Navigation section</nav>
+    <main>Main content</main>
+    <section>Section content</section>
+    <article>Article content</article>
+    <aside>Aside content</aside>
+    <footer>Footer section</footer>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- Lists -->
+    <ul>
+        <li>Unorder List 1</li>
+        <li>Unorder List 2</li>
+    </ul>
+
+    <ol>
+        <li>Order List1</li>
+        <li>Order List1</li>
+    </ol>
+
+    <menu>
+        <li>Menu List 1</li>
+        <li>Menu List 2</li>
+    </menu>
+
+    <dl>
+        <dt>Description List</dt>
+        <dd>Description one</dd>
+        <dd>Description two</dd>
+    </dl>
+
+    <details>
+        <summary>Click to Expand</summary>
+        <ol>
+            <li>Details 1</li>
+            <li>Details 2</li>
+        </ol>
+    </details>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- Tables -->
+    <table border="1">
+        <caption>Table</caption>
+        <thead>
+            <tr>
+                <th>
+                    Head 1
+                </th>
+                <th>
+                    Head 2
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Data 1
+                </td>
+                <td>
+                    Data 2
+                </td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>
+                    Data 1
+                </td>
+                <td>
+                    Data 2
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"> This is Footer </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>This is Legend</legend>
+            <fieldset>
+                <legend>Basic Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Email" required>
+                <br><br>
+                <label for="password">password:</label>
+                <input type="password" placeholder="password" required>
+                <br><br>
+                <label for="age">Age:</label>
+                <input type="number" placeholder="PhoneNumber" required>
+                <br><br>
+                <label for="Phone">Phone:</label>
+                <input type="tel" placeholder="PhoneNumber">
+                <br><br>
+                <label for="website">Website:</label>
+                <input type="url" placeholder="https://example.com">
+                <br><br>
+                <label for="search">Search:</label>
+                <input type="search" placeholder="Search something...">
+            </fieldset>
+
+            <fieldset>
+                <legend>Select Input</legend>
+                <label>Gender:</label>
+                <input type="radio" name="gender"> <label for="male">Male</label>
+                <input type="radio" name="gender">  <label for="female">Female</label>
+                <br><br>
+
+                <label for="checkbox">
+                    Hobbies:
+                    <input type="checkbox" name="hobby" value="reading"> Reading
+                    <input type="checkbox" name="hobby" value="traveling"> Traveling
+                    <input type="checkbox" name="hobby" value="gaming"> Gaming
+                </label>
+                <br><br>
+
+                <label for="Dropdown">DropDown:</label>
+                <select>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Special Inputs</legend>
+                <label for="birthdate">Birthdate:</label>
+                <input type="date">
+                <br><br>
+                <label for="time">Time:</label>
+                <input type="time">
+                <br><br>
+                <label for="color">Color</label>
+                <input type="color">
+                <br><br>
+                <label for="volume">Volume:</label>
+                <input type="range" min="0" max="100">
+                <br><br>
+                <label for="fileupload">Upload File:</label>
+                <input type="file">
+                <br><br>
+                <label for="message">Message:</label>
+                <textarea rows="4" placeholder="Write your message here"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Form Actions</legend>
+                <button>Click Me</button>
+                <input type="Submit">
+                <input type="Reset">
+            </fieldset>
+        </fieldset>
+    </form>
+    <br><hr><br>
+    <!-- Links -->
+    <a href="https://example.com">Link</a>
+    <br> 
+    <a href="https://example.com" target="_blank">Link (Open in New Page)</a>
+    <br>
+    <a href="mailto:me@example.com">Email</a>
+    <br>
+    <a href="tel:+1234567890">Call</a>
+    <br> <br>
+    <hr>
+    <br>
+
+    <!-- Media -->
+    <img src="Sample.png" alt="This is Image" height="300px" width="auto" style="display: block; margin: 0 auto;">
+    <br>
+    <hr>
+    <br>
+
+    <video controls autoplay muted loop width="640" height="360" style="display: block; margin: 0 auto;">
+        <source src="sample.mp4" type="video/mp4">
+        Video
+    </video>
+    <br><hr><br>
+
+    <audio controls autoplay muted loop style="display: block; margin: 0 auto;">
+        <source src="sample.mp3" type="audio/mp3">
+        Audio
+    </audio>
+    <br><hr><br>
+
+    <object data="Sample.pdf" type="application/pdf" width="640" height="700" style="display: block; margin: 0 auto;">
+        <p style="text-align: center;">PDF cannot be displayed. <a href="sample.pdf">Download here</a>.</p>
+    </object>
+    <br><hr><br>
+
+    <iframe src="https://example.com" frameborder="2" width="640" height="250" style="display: block; margin: 0 auto;" ></iframe>
+     <br><hr><br>
+
+    <embed src="Sample.mp4" width="350" height="200" style="display: block; margin: 0 auto;" >
+    <br><hr><br>
+
+    <!-- SVG & Canvas -->
+     <canvas width="200" height="100"></canvas> <!-- It's used for js-->
+     <svg width="100" height="100" style="display: block; margin: 0 auto; ">
+        <circle cx="50" cy="50" r="50" stroke="black" fill="blue"/> </svg>
+    
+    <br><hr><br>
+    <div style="width: 100px; height: 100px;"">
+    <dialog open>This is a dialog box</dialog>
+    </div>
+    <br><hr><br>
+
+    <progress value="50" max="100"></progress>
+    <meter value="0.7">70%</meter>
+    
+    <template> <!-- Hidden HTML for later use -->
+    <p>This is inside a template.</p>
+    </template>
+    <br>
+    <slot>Slot content</slot> <!-- Placeholder in web component -->
+    <br><hr><br>
+
+    <math>
+    <mrow>
+        <msup><mi>x</mi><mn>2</mn></msup>
+    </mrow>
+    </math>
+
+    <br><hr><br>
+
+    <script>document.write("Hello from script tag!");</script>
+    <noscript>JavaScript is disabled.</noscript>
+
+    <br><hr><br>
+    
+    <!-- Extra/Deprecated -->
+    <acronym title="As Soon As Possible">ASAP</acronym> <!-- Deprecated acronym tag -->
+    <big>Big text</big> <!-- Deprecated bigger text -->
+    <center> This Text in Centered</center> <!-- Deprecated centering -->
+    <font color="blue">Blue text</font> <!-- Deprecated font styling -->
+
+</body>
+</html>
